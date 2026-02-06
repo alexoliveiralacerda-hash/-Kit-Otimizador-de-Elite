@@ -1,52 +1,42 @@
-========= KIT DE OTIMIZAÇÃO DE ELITE - WINDOWS 10 & 11 (V. DEFINITIVA) ===========
+🚀 Kit de Otimização de Elite para Windows 10 & 11
 
-DESENVOLVIDO POR:
-- Alexandre Oliveira de Lacerda (alexoliveira.lacerda@gmail.com)
-- Gemini AI (Google)
+Este projeto é uma solução avançada de automação via PowerShell, desenvolvida para maximizar a performance, reduzir a latência e automatizar a manutenção preventiva de sistemas Windows. Diferente de ferramentas genéricas, este script atua em parâmetros de baixo nível do registro e do hardware para entregar uma experiência de uso ultra fluida.
 
-ESTE KIT FOI CRIADO PARA:
-1. Eliminar gargalos de processamento e latência de rede.
-2. Limpar arquivos temporários e caches profundos do sistema.
-3. Acelerar a abertura de pastas no Explorador de Arquivos.
-4. Garantir que o hardware trabalhe em modo de Ultra Performance.
-5. Automatizar a manutenção para que ocorra todo domingo às 03:00 AM.
+🛠️ Principais Funcionalidades
 
-------------------------------------------------------------------------------
-COMO INSTALAR:
-------------------------------------------------------------------------------
-1. Certifique-se de que os dois arquivos abaixo estão na mesma pasta:
-   - InstalarManutencao.ps1
-   - ManutencaoWindows.ps1
+🛡️ Segurança e Resiliência
 
-2. Clique com o botão direito no arquivo "InstalarManutencao.ps1".
-3. Selecione a opção "Executar com o PowerShell".
-4. Se o Windows solicitar permissão, confirme clicando em "Sim" ou digitando "Y".
+Ponto de Restauração Automático: Garante a segurança do sistema criando um ponto de recuperação datado antes de qualquer modificação.
+Reparo de Imagem (DISM): Utiliza ferramentas nativas para reparar componentes corrompidos e limpar o repositório de arquivos do Windows (WinSxS).
 
-------------------------------------------------------------------------------
-O QUE O SCRIPT FAZ (RESUMO TÉCNICO):
-------------------------------------------------------------------------------
-- SEGURANÇA: Cria um Ponto de Restauração do Sistema antes de começar.
-- REDE: Prioriza o tráfego de DNS e otimiza parâmetros TCP/IP.
-- EXPLORER: Remove o atraso de carregamento de pastas com muitos arquivos.
-- CPU/RAM: Ajusta a separação de prioridade (Win32PrioritySeparation).
-- ENERGIA: Força o plano de energia de Alto Desempenho e desativa o 
-  economizador de energia do link PCIe (ASPM).
-- MANUTENÇÃO: Executa o reparo de imagem do Windows (DISM) e limpa o 
-  Component Store (WinSxS).
+⚡ Ultra Performance & Hardware
+Ajuste de Prioridade de CPU: Otimiza o Win32PrioritySeparation para dar foco total às aplicações em primeiro plano.
 
-------------------------------------------------------------------------------
-COMO DESFAZER (CASO NECESSÁRIO):
-------------------------------------------------------------------------------
-Se você desejar retornar ao estado anterior:
-1. Abra o menu iniciar e digite "Restauração".
-2. Selecione "Criar um ponto de restauração" e clique em "Restauração do Sistema".
-3. Escolha o ponto: "Antes_Manutencao_Elite_[DATA_DA_EXECUÇÃO]".
+Latência de Disco: Melhora o tempo de resposta do monitor e dispositivos através de ajustes no cache de gravação e desativação do ASPM (PCIe Power Management).
 
-------------------------------------------------------------------------------
-CONTATO E SUPORTE:
-------------------------------------------------------------------------------
-Dúvidas ou sugestões podem ser enviadas diretamente para o autor:
-Alexandre Oliveira de Lacerda - alexoliveira.lacerda@gmail.com
+Interface Instantânea: Reduz atrasos de animação e força o Explorador de Arquivos a tratar pastas grandes como "Itens Gerais", eliminando lentidão no carregamento de arquivos.
 
-"Compartilhar conhecimento é a melhor forma de otimizar o mundo."
-==============================================================================
+🌐 Otimização de Rede (Network Stack)
+
+Aceleração TCP/IP: Ajusta o Autotuninglevel e desativa heurísticas que limitam a banda larga.
+
+Priorização de DNS: Configura a resolução de nomes como tarefa prioritária do sistema para carregamento instantâneo de páginas.
+
+📅 Automação Inteligente
+
+Instalador de Tarefa Agendada: Inclui um script que implanta a manutenção para rodar silenciosamente todos os domingos às 03:00 AM.
+
+🚀 Como Utilizar
+Faça o download do repositório.
+
+Certifique-se de que os arquivos InstalarManutencao.ps1 e ManutencaoWindows.ps1 estão na mesma pasta.
+
+Execute o InstalarManutencao.ps1 com privilégios de Administrador.
+
+👨‍💻 Autores
+
+Alex Oliveira Lacerda - alexoliveira.lacerda@gmail.com
+
+Gemini AI (Colaboração Técnica)
+
+Este software é fornecido "como está", com foco em performance bruta. Recomenda-se a revisão do código para ambientes corporativos específicos.
