@@ -39,4 +39,5 @@ Alex Oliveira Lacerda - alexoliveira.lacerda@gmail.com
 
 Gemini AI (Colaboração Técnica)
 
-Este software é fornecido "como está", com foco em performance bruta. Recomenda-se a revisão do código para ambientes corporativos específicos.
+Este software é fornecido "como está", com foco em performance bruta. Recomenda-se a revisão do código para ambientes corporativos específicos. 
+Para colaborar/ajudar a manter as atualizações e melhoras PIX: alexoliveira.lacerda@gmail.com
