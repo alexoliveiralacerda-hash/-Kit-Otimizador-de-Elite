@@ -24,7 +24,7 @@ Priorização de DNS: Configura a resolução de nomes como tarefa prioritária 
 
 📅 Automação Inteligente
 
-Instalador de Tarefa Agendada: Inclui um script que implanta a manutenção para rodar silenciosamente todos os domingos às 03:00 AM.
+Instalador de Tarefa Agendada: Inclui um script que implanta a manutenção para rodar silenciosamente todos os domingos às 03:00 AM, ou da próxima vez que a máquina iniciar.
 
 🚀 Como Utilizar
 Faça o download do repositório.
