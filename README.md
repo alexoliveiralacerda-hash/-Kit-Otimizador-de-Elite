@@ -5,7 +5,7 @@ O Otimizador de Elite é uma ferramenta avançada de manutenção preventiva e c
 
 Para que todas as funções de reparo e ocultação de janelas funcionem corretamente, o programa deve ser executado como Administrador.
 1.	Clique com o botão direito no arquivo Otimizador de Elite v3.0.exe.
-2.	Selecione "Executar como administrador". (Se você compilou com a flag --uac-admin, o Windows pedirá essa permissão automaticamente ao abrir).
+2.	Selecione "Executar como administrador".
 ________________________________________
 🕹️ Funcionalidades Principais
 
