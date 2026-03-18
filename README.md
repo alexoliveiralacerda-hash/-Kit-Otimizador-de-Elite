@@ -1,10 +1,10 @@
-🚀 Manual do Usuário: Otimizador de Elite v5.0
+🚀 Manual do Usuário: Otimizador de Elite v6.0
 
 O Otimizador de Elite é uma ferramenta avançada de manutenção preventiva e corretiva para Windows, projetada para maximizar o desempenho do sistema e garantir a estabilidade do hardware através de scripts automatizados.
 🛡️ Pré-requisito Fundamental
 
 Para que todas as funções de reparo e ocultação de janelas funcionem corretamente, o programa deve ser executado como Administrador.
-1.	Clique com o botão direito no arquivo Otimizador de Elite v5.0.exe.
+1.	Clique com o botão direito no arquivo Otimizador de Elite v6.0.exe.
 2.	Selecione "Executar como administrador".
 ________________________________________
 🕹️ Funcionalidades Principais
@@ -74,7 +74,7 @@ Contato Direto: Se o problema persistir, envie um e-mail com o print do erro par
 
 E-mail: alexoliveira.lacerda@gmail.com
 
-Assunto: [SUPORTE] Otimizador de Elite - Versão 5.0
+Assunto: [SUPORTE] Otimizador de Elite - Versão 6.0
 
 ________________________________________
 ☕ Apoie o Desenvolvedor
