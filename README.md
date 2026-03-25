@@ -51,6 +51,14 @@ Código Aberto: Todo o processo é transparente. Você pode verificar os arquivo
 
 Interrupção Forçada: O botão "PARAR PROCESSO" encerra imediatamente a execução dos scripts em segundo plano.
 
+⚠️ Alerta de "Falso Positivo"
+Como este software realiza alterações profundas no Registro do Windows e não possui uma assinatura digital paga, navegadores como o Chrome e o Windows SmartScreen podem emitir alertas.
+
+Para baixar: No Chrome, clique na seta ao lado de "Descartar" e selecione "Manter assim mesmo".
+Para executar: Clique em "Mais informações" e depois em "Executar assim mesmo".
+
+Este projeto é de código aberto. Você pode revisar todos os scripts (.ps1) no repositório para garantir que não há códigos maliciosos.
+
 ☕ Apoie o Projeto
 Se este otimizador ajudou a melhorar o desempenho do seu PC, considere apoiar o desenvolvimento:
 
