@@ -57,7 +57,7 @@ Como este software realiza alterações profundas no Registro do Windows e não 
 Para baixar: No Chrome, clique na seta ao lado de "Descartar" e selecione "Manter assim mesmo".
 Para executar: Clique em "Mais informações" e depois em "Executar assim mesmo".
 
-Este projeto é de código aberto. Você pode revisar todos os scripts (.ps1) no repositório para garantir que não há códigos maliciosos.
+Este projeto é de código aberto. 
 
 ☕ Apoie o Projeto
 Se este otimizador ajudou a melhorar o desempenho do seu PC, considere apoiar o desenvolvimento:
