@@ -1,83 +1,36 @@
-🚀 Manual do Usuário: Otimizador de Elite v7.0
-
-O Otimizador de Elite é uma ferramenta avançada de manutenção preventiva e corretiva para Windows, projetada para maximizar o desempenho do sistema e garantir a estabilidade do hardware através de scripts automatizados.
-🛡️ Pré-requisito Fundamental
-
-Para que todas as funções de reparo e ocultação de janelas funcionem corretamente, o programa deve ser executado como Administrador.
-1.	Clique com o botão direito no arquivo Otimizador de Elite v7.0.exe.
-2.	Selecione "Executar como administrador".
+🚀 Otimizador de Elite V7.0 (Supreme Hybrid)
+Desenvolvido por: Alexandre Lacerda
+O Otimizador de Elite é uma ferramenta avançada de manutenção e otimização de sistema, projetada para reduzir a latência, eliminar ficheiros desnecessários e maximizar a performance do Windows, seja para trabalho multitarefa ou jogos competitivos.
 ________________________________________
-🕹️ Funcionalidades Principais
-
-1. Executar Otimização Agora
-Este é o módulo de manutenção imediata. Ao clicar neste botão:
-•	O que acontece: O sistema inicia uma varredura completa em busca de arquivos corrompidos e limpa caches desnecessários.
-•	Visual: A barra de progresso será ativada e o status mudará para "Otimizando...".
-•	Silêncio Total: Graças à tecnologia VBScript integrada, nenhuma janela preta ou azul do PowerShell aparecerá durante o processo.
-•	Conclusão: Ao finalizar, a barra de progresso chegará ao fim e exibirá "Otimização Concluída!".
-2. Agendar Manutenção Semanal
-Ideal para manter o computador sempre rápido sem precisar abrir o programa manualmente.
-•	Configuração: Cria uma tarefa automática no Windows para rodar todo domingo às 03:00 AM.
-•	Plano de Energia: Ativa automaticamente o plano de "Alto Desempenho" do Windows para garantir que o PC não fique lento durante tarefas pesadas.
-•	Autonomia: Uma vez agendado, você pode fechar o programa; o Windows cuidará do resto de forma invisível.
-3. Parar Processo Agora (Botão de Emergência)
-Se precisar interromper a manutenção por qualquer motivo:
-•	Ação: Encerra instantaneamente o PowerShell e qualquer sub-processo de reparo (como DISM ou SFC) que esteja rodando no fundo.
-•	Segurança: Limpa os arquivos temporários de lançamento para garantir que não fiquem rastros no sistema.
-
+🛠️ Funcionalidades Principais
+•	Executar Otimização: Realiza uma limpeza profunda, remove bloatware do Windows e ajusta registos de performance.
+•	Perfis de CPU:
+o	Trabalho (Multitarefa): Prioridade equilibrada para fluidez em várias aplicações.
+o	Gaming (Foco FPS): Ajusta a separação de prioridade do Win32 para dar o máximo foco ao processo em primeiro plano (jogos).
+•	Agendar Manutenção: Cria uma tarefa automática que executa a limpeza todos os domingos às 03:00 da manhã.
+•	Restaurar Padrão: Reverte as modificações de registo e rede para os valores originais do Windows.
+•	Monitorização em Tempo Real: Painel inferior com uso de CPU, RAM e espaço livre em disco.
 ________________________________________
-⚠️ Observações Importantes
-
-•	Reinicialização: Após uma "Otimização Completa", é recomendável reiniciar o computador para que todas as correções de registro e sistema sejam aplicadas.
-•	Barra de Progresso: Se a barra parar de se mover, não se preocupe; alguns processos de reparo do Windows são pesados e podem levar alguns minutos para responder.
-
-⚠️ NOTA SOBRE PRIVILÉGIOS DE SISTEMA
-
-Este software opera em nível de sistema para garantir a máxima eficácia. O aviso de elevação (UAC) é necessário para:
-Reparo de Kernel: Execução dos comandos sfc /scannow para integridade de arquivos.
-Manutenção de Imagem: Uso da ferramenta DISM para reparar a imagem do Windows.
-Gestão de Energia: Alteração de planos de desempenho através do powercfg.
-A concessão de privilégios de administrador garante que o processo ocorra de forma totalmente oculta e sem interrupções.
-
-🛡️ Por que o Windows solicita permissão de Administrador?
-
-Ao abrir o Otimizador de Elite, você verá um aviso de Controle de Conta de Usuário (UAC). 
-Fique tranquilo! Essa permissão é obrigatória para que o software possa acessar as ferramentas nativas de reparo do Windows, como o SFC e o DISM. 
-Sem isso, o otimizador não conseguiria corrigir falhas profundas no sistema ou limpar arquivos protegidos que deixam o computador lento.
-
-Formato "Pergunta & Resposta" (FAQ)❓
-
-O aviso do Windows significa que o programa é perigoso?
-Não. O aviso apenas indica que o programa fará alterações em configurações do sistema. 
-Como o Otimizador de Elite realiza manutenções avançadas (limpeza de cache do sistema e reparo de arquivos corrompidos), o Windows exige que o usuário autorize essas ações por segurança.
-
-1. O programa travou em "Otimizando"?
-Não. Processos de reparo como o SFC e o DISM analisam milhares de arquivos do Windows. Dependendo da velocidade do seu disco (HD ou SSD), a barra de progresso pode parecer estática por alguns minutos. Aguarde a mensagem de "Concluída".
-
-2. Posso usar o computador enquanto a otimização acontece?
-Sim, mas para melhores resultados, recomendamos fechar jogos ou programas pesados. A otimização mexe em arquivos de sistema e planos de energia, então o desempenho pode oscilar durante o processo.
-
-3. O agendamento semanal funciona com o PC desligado?
-Se o computador estiver desligado no domingo às 03:00 AM, o Windows executará a tarefa assim que você ligar o PC e ele ficar ocioso por alguns instantes.
-
-4. Como saber se a manutenção automática foi criada?
-Você pode verificar abrindo o "Agendador de Tarefas" do Windows e procurando por uma pasta ou tarefa chamada Manutencao_Automatica_TI.
-
-🛠️ Suporte Técnico
-Caso encontre algum erro inesperado ou o programa não abra, siga estes passos:
-
-Verifique o Antivírus: Alguns antivírus podem bloquear scripts de manutenção. Adicione o Otimizador de Elite v7.0.exe à lista de exclusões se necessário.
-
-Logs de Erro: Se o processo falhar, tente executar o programa via terminal para visualizar possíveis erros de permissão.
-
-Contato Direto: Se o problema persistir, envie um e-mail com o print do erro para:
-
-E-mail: alexoliveira.lacerda@gmail.com
-
-Assunto: [SUPORTE] Otimizador de Elite - Versão v7.0
-
+📋 Requisitos de Sistema
+•	Sistema Operativo: Windows 10 ou Windows 11 (64 bits).
+•	Permissões: O programa deve ser executado como Administrador para modificar as definições do sistema.
+•	Espaço em Disco: Mínimo de 100MB para ficheiros temporários e logs.
 ________________________________________
-☕ Apoie o Desenvolvedor
+🚀 Como Utilizar
+1.	Clica com o botão direito no ficheiro main.exe e seleciona "Executar como Administrador".
+2.	Escolhe o teu Perfil de Prioridade no menu suspenso.
+3.	Clica em "EXECUTAR OTIMIZAÇÃO" e aguarda que a barra de progresso chegue aos 100%.
+4.	cite_start Clica em "Agendar Manutenção Semanal" para manter o PC sempre rápido de forma automática.
+5.	Recomendação: Reinicia o computador após a primeira otimização para aplicar todas as mudanças de registo.
+________________________________________
+⚠️ Avisos de Segurança
+•	Ponto de Restauro: O programa tenta criar um ponto de restauro automaticamente antes de iniciar.
+•	Antivírus: Devido às modificações no registo e execução de scripts PowerShell, alguns antivírus podem emitir alertas. O software é seguro e focado apenas em performance.
+•	Interrupção: Podes clicar em "PARAR PROCESSO" a qualquer momento se precisares de cancelar a operação imediatamente.
+________________________________________
+☕ Apoie o Projeto
+Se este otimizador te ajudou a ganhar FPS ou produtividade, considera apoiar o desenvolvedor através do PIX indicado na interface do programa:
+E-mail: alexoliveira.lacerda@gmail.com 
+________________________________________
+Otimizador de Elite V7.0 - A performance que o teu hardware merece.
 
-Se a ferramenta foi útil para você, considere fazer uma doação via PIX utilizando o QR Code presente na interface ou através do e-mail:
-alexoliveira.lacerda@gmail.com
