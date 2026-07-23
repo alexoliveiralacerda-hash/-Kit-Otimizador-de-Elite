@@ -1,4 +1,4 @@
-🚀 Otimizador de Elite V7.0 (Supreme Hybrid)
+🚀 Otimizador de Elite V8.4 (Supreme Hybrid)
 O Otimizador de Elite é uma ferramenta avançada de manutenção e otimização de sistema desenvolvida em Python e PowerShell. Foi projetada para reduzir a latência, eliminar arquivos desnecessários e maximizar a performance do Windows, seja para trabalho multitarefa ou jogos competitivos.
 
 🛠️ Funcionalidades Principais
