@@ -68,6 +68,6 @@ PIX: alexoliveira.lacerda@gmail.com
 
 Desenvolvedor: Alexandre Lacerda 
 
-Otimizador de Elite V7.0 - A performance que o seu hardware merece.
+Otimizador de Elite V8.4 - A performance que o seu hardware merece.
 
 [Baixar Agora (Executável)](https://github.com/alexoliveiralacerda-hash/-Kit-Otimizador-de-Elite/releases/latest)
